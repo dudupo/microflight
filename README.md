@@ -1,4 +1,4 @@
 
 MicroflightLAB
 ----
-![measuring system](photo/meas_system_img)
+![measuring system](photo/meas_system_img.png)
