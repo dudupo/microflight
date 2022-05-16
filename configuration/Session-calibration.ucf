@@ -1,0 +1,43 @@
+[ch1]
+device = "GSV-4"
+ComNr = 6
+Input = 1
+BaudRate = 115200
+OpenFlags = 0
+Name = "Chan. 6_1"
+SerNr = 21256072
+Color = 16777215
+IsHidden = FALSE
+
+[ch2]
+device = "GSV-4"
+ComNr = 6
+Input = 2
+BaudRate = 115200
+OpenFlags = 0
+Name = "Chan. 6_2"
+SerNr = 21256072
+Color = 16711680
+IsHidden = FALSE
+
+[ch3]
+device = "GSV-4"
+ComNr = 6
+Input = 3
+BaudRate = 115200
+OpenFlags = 0
+Name = "Chan. 6_3"
+SerNr = 21256072
+Color = 16776960
+IsHidden = FALSE
+
+[ch4]
+device = "GSV-4"
+ComNr = 6
+Input = 4
+BaudRate = 115200
+OpenFlags = 0
+Name = "Chan. 6_4"
+SerNr = 21256072
+Color = 65280
+IsHidden = FALSE
