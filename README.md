@@ -1,4 +1,4 @@
 
 MicroflightLAB
 ----
-![measuring system](photo/Ring.png)
+![measuring system](photo/RING.png)
