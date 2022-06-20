@@ -1,11 +1,4 @@
 
-cm              = 10               ;
-sidelength      = 0.5   * cm       ;
-width           = 0.5   * cm       ;
-length          = 10    * cm       ;
-delta           = 4     * cm       ;
-discenter       = 1.1   * cm       ;
-teta            = 80               ;
 
 
 include <./utilits.scad>;
@@ -37,4 +30,4 @@ module Timber(){
     rotation_sym(1*cm, 3, 0, 1)  translate( [0, -length/2 + cm, 0 ] ) arm();
 }
 
-Timber();
+// Timber();

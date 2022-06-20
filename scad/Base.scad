@@ -1,9 +1,3 @@
-cm                  = 10               ;
-Base_sidelength     = 30    * cm       ;
-Base_height         = 3     * cm       ;
-delta               = 4     * cm       ;
-discenter           = 1.1   * cm       ;
-
 
 include <./utilits.scad>;
 
