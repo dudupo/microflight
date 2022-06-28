@@ -3,9 +3,6 @@
 
 include <./utilits.scad>;
 
-include <nutsnbolts/materials.scad>;
-include <nutsnbolts/cyl_head_bolt.scad>;
-
 module arm() {
 
     rotate(80, [1,0,0]) {
@@ -19,14 +16,15 @@ module arm() {
             }
             for( i=[0:3]){
                 translate([0,-i*cm,1*cm]) {
-                    hole_through(name="M2", l= 2*cm, cld= 0.5, h= 10 , hcld=0.5);
+                    screw(M2_cap_screw, 25);
+                    // hole_through(name="M2", l= 2*cm, cld= 0.5, h= 10 , hcld=0.5);
                 }
             }
         }
     }
 }
 
-module Timber(){
+module Timber_stl() stl("Timber") {
     rotation_sym(1*cm, 3, 0, 1)  translate( [0, -length/2 + cm, 0 ] ) arm();
 }
 

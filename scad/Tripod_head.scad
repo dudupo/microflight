@@ -6,26 +6,29 @@ include <./utilits.scad>;
 
 
 module loadcell_base_screw() {
-    hole_through(name="M1", l=2*cm, cld=1, h=1, hcld=1);
+    // hole_through(name="M1", l=2*cm, cld=1, h=1, hcld=1);
+    screw(M4_hex_screw, 25);
+
 }
 
 module TripodHead_screw() {
     // hole_through(name="M1", l=6*cm, cld=1, h=1, hcld=1);
     // $fn=60;
-    hole_through(name="M1", l=20*cm, cld=1, h=1, hcld=1);
-
+    // hole_through(name="M1", l=20*cm, cld=1, h=1, hcld=1);
+    screw(M4_hex_screw, 4);
     //  screw("M1.6x2.5");
 }
 
-module TripodHead() {
+module TripodHead_stl()
+stl("TripodHead") {
     translate([0.5*ulcfsideHead, 0 , 0] ){
         difference(){
             cube([mm, ulcssideHead ,cm], center=true);
             translate([0,0,-cm/2 + 3*mm]){
                 rotate(-90, [0,1,0]){
-                    translate([0,0,cm]){
+                    // translate([0,0,cm]){
                         TripodHead_screw();
-                    }
+                    // }
                 }
             }
         }
@@ -35,9 +38,9 @@ module TripodHead() {
             cube([mm, ulcssideHead ,cm], center=true);
             translate([0,0,-cm/2 + 3*mm]){
                 rotate(90, [0,1,0]){
-                    translate([0,0,cm]){
+                    // translate([0,0,cm]){
                         TripodHead_screw();
-                    }
+                    // }
                 }
             }
         }
