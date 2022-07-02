@@ -1,6 +1,6 @@
 {
-    "Base.stl": 12.09,
-    "Tripod.stl": 1.218,
-    "TripodHead.stl": 1.398,
-    "Timber.stl": 4.011
+    "Base.stl": 719.704,
+    "Tripod.stl": 12.014,
+    "TripodHead.stl": 13.231,
+    "Timber.stl": 109.236
 }

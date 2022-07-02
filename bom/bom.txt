@@ -1,13 +1,7 @@
-Vitamins:
  M
  a
  i
  n
-12| 12 Screw M2 cap x 25mm
-16| 16 Screw M4 cap x 25mm
- 3|  3 Screw M4 hex x 25mm
-15| 15 Screw M4 hex x  4mm
-
 Printed:
  1|  1 Base.stl
  1|  1 Timber.stl

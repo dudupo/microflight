@@ -1,6 +1,6 @@
 include <./utilits.scad>;
-include <./Tripod_head.scad>
-include <./Timber.scad>
+use <./Tripod_head.scad>
+use <./Timber.scad>
 
 // Todo, find the exactly distance 
 
@@ -44,7 +44,7 @@ module set_Tripod(){
     }
 }
 
-include <./Base.scad>
+use <./Base.scad>
 
 
 module main_assembly()
@@ -71,24 +71,6 @@ assembly("main") {
 
 }
 
-
-//! Assembly instructions in Markdown format in front of each module that makes an assembly.
-
-
 if($preview)
     main_assembly();
-
-// module mmmm(){
-    
-        
-// }
-
-
-// render(){
-// translate([0,0, height]){
-// mmmm();
-// }
-// }
-
-// loadcellpath = "davidponar/workspace/STP-STEP-to-STL-Python-Converter/3DModelsToConvert/Converted-STLs/ULC.STEP.stl";
 

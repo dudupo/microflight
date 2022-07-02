@@ -6,20 +6,7 @@
         "zoomed": 0,
         "count": 1,
         "assemblies": {},
-        "vitamins": {
-            "screw(M2_cap_screw, 25): Screw M2 cap x 25mm": {
-                "count": 12
-            },
-            "screw(M4_hex_screw, 4): Screw M4 hex x  4mm": {
-                "count": 15
-            },
-            "screw(M4_hex_screw, 25): Screw M4 hex x 25mm": {
-                "count": 3
-            },
-            "screw(M4_cap_screw, 25): Screw M4 cap x 25mm": {
-                "count": 16
-            }
-        },
+        "vitamins": {},
         "printed": {
             "Timber.stl": {
                 "count": 1,

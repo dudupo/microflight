@@ -1,6 +1,8 @@
 // include <nutsnbolts/materials.scad>;
 // include <nutsnbolts/cyl_head_bolt.scad>;
 include <NopSCADlib/lib.scad>; 
+// use <NopSCADlib/vitamins/insert.scad>
+
 
 cm              = 10               ;
 sidelength      = 0.5   * cm       ;
@@ -13,7 +15,7 @@ teta            = 80               ;
 // -------------------------------------------
 
 Base_sidelength     = 30    * cm       ;
-Base_height         = 3     * cm       ;
+Base_height         = 1     * cm       ;
 // delta               = 4     * cm       ;
 // discenter           = 1.1   * cm       ;
 

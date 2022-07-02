@@ -2,12 +2,17 @@ tmp/main_assembly.png: \
 	/home/davidponar/workspace/microflight/stls/Base.stl \
 	/home/davidponar/workspace/microflight/scad/../ULC.stl \
 	/home/davidponar/workspace/microflight/stls/TripodHead.stl \
+	/home/davidponar/.local/share/OpenSCAD/libraries/scad-utils/so3.scad \
+	/home/davidponar/.local/share/OpenSCAD/libraries/scad-utils/linalg.scad \
+	/home/davidponar/.local/share/OpenSCAD/libraries/list-comprehension-demos/skin.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/e3d.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/terminal.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/utils/core/clip.scad \
+	/home/davidponar/.local/share/OpenSCAD/libraries/scad-utils/lists.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/utils/core/rounded_rectangle.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/utils/core/teardrops.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/utils/core/sphere.scad \
+	/home/davidponar/.local/share/OpenSCAD/libraries/threadlib/threadlib.scad \
 	/home/davidponar/workspace/microflight/scad/Base.scad \
 	/home/davidponar/workspace/microflight/scad/Timber.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/utils/offset.scad \
@@ -26,6 +31,7 @@ tmp/main_assembly.png: \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/microview.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/o_ring.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/veroboard.scad \
+	/home/davidponar/.local/share/OpenSCAD/libraries/thread_profile.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/cable_strip.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/sealing_strip.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/wire.scad \
@@ -38,6 +44,7 @@ tmp/main_assembly.png: \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/transformers.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/ziptie.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/toggles.scad \
+	/home/davidponar/.local/share/OpenSCAD/libraries/scad-utils/se3.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/bulldogs.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/batteries.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/box_section.scad \
@@ -66,6 +73,7 @@ tmp/main_assembly.png: \
 	/home/davidponar/workspace/microflight/scad/Tripod_head.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/buttons.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/washer.scad \
+	/home/davidponar/.local/share/OpenSCAD/libraries/scad-utils/transformations.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/utils/core/polyholes.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/lib.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/7_segment.scad \
@@ -103,6 +111,7 @@ tmp/main_assembly.png: \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/pillar.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/psu.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/rockers.scad \
+	/home/davidponar/.local/share/OpenSCAD/libraries/threadlib/THREAD_TABLE.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/ball_bearings.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/utils/sector.scad \
 	/home/davidponar/.local/share/OpenSCAD/libraries/NopSCADlib/vitamins/zipties.scad \
